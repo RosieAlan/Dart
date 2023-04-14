@@ -40,8 +40,11 @@ void main() {
   String price = 'test';
   try {
     var toNum = int.parse(price);
+    //var xxx= aaa.toString()
     print(toNum);
   } catch (err) {
     print(0);
   }
+  // 6. 判空
+  // isEmpty 方法用于检查集合和字符串是否为空，而 isNull 方法用于检查变量是否为 null。
 }
